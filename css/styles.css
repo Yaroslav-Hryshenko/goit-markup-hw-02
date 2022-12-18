@@ -150,7 +150,9 @@ body {
 .gadgets-item {
 }
 /* -------------team-------------- */
-
+.team {
+    background: #F4F4FD
+}
 .team-title {
   font-family: inherit, sans-serif;
   font-size: 36px;
@@ -224,4 +226,54 @@ body {
   letter-spacing: 0.02em;
   /* CORNFLOWER */
   color: #e7e9fc;
+}
+
+
+
+/* -------------button-------------- */
+.button {
+  background: #F4F4FD;  
+  font-family: inherit, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4D5AE5;
+
+}
+.button :hover{
+    color: #e7e9fc;
+    color: #404BBF;
+}
+.button :focus {
+    color: #f1ec89;
+}
+
+
+.foto-list {
+}
+.list {
+}
+.foto-item {
+}
+.foto-name {
+  font-family: inherit, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24/20);
+  letter-spacing: 0.02em;
+  /* NAVY BLUE */
+  color: var(--title-color)
+}
+.foto-skill {
+  font-family: inherit, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(24/16);
+   letter-spacing: 0.02em;
+  /* SLATE */
+  color:var(--text-color);
 }
