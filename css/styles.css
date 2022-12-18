@@ -1,0 +1,227 @@
+:root {
+    --title-color: #2e2f42;
+    --text-color: #434455;
+    
+
+}
+
+body {
+  color: aqua;
+  font-family: "Roboto", sans-serif;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.solutions-for-bisiness {
+}
+/* --------------heder----------- */
+.header {
+}
+.header-navigation {
+}
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  /* NAVY BLUE */
+  color: var(--title-color);
+}
+.header-logoone {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  /* IRIS */
+  color: #4d5ae5;
+}
+.header-list {
+}
+.header-item {
+}
+.header-link {
+  font-family: inherit, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  /* NAVY BLUE */
+  color: var(--title-color);
+}
+.header-contakt {
+}
+.header-mail {
+  font-family: inherit, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  /* SLATE */
+  color:var(--text-color);
+}
+.header-tel {
+  font-family: inherit, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  /* SLATE */
+  color: var(--text-color);
+}
+.header-item :hover {
+     color: #ffffff;
+}
+.header-item :focus {
+    color: orange;
+}
+
+/* -----------event------------ */
+.event {
+  background: #2e2f42;
+}
+.event-title {
+  font-family: inherit, sans-serif;
+  font-size: 56px;
+  line-height: 1,07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.event-btr {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.19;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+/* -------------info-------------- */
+.info {
+}
+.info-list {
+}
+.info-item {
+}
+.info-title {
+  font-family: inherit, sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  /* NAVY BLUE */
+  color:var(--title-color);
+}
+.info-after-title {
+  font-family: inherit, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  /* SLATE */
+  color: var(--text-color);
+}
+
+/* -------------gadgets-------------- */
+
+.gadgets {
+}
+.gadgets-title {
+  font-family: inherit, sans-serif;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-color);
+}
+.gadgets-list {
+}
+.gadgets-item {
+}
+/* -------------team-------------- */
+
+.team-title {
+  font-family: inherit, sans-serif;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-color);
+}
+.team-list {
+}
+.list {
+}
+.team-item {
+}
+.team-name {
+  font-family: inherit, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  /* NAVY BLUE */
+  color: var(--title-color);
+}
+.team-skill {
+  font-family: inherit, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  /* SLATE */
+  color:var(--text-color);
+}
+/* -------------footer-------------- */
+.footer {
+  background: #2e2f42;
+}
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  /* CLOUD */
+  color: #f4f4fd;
+}
+.footer-logoone {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  /* IRIS */
+  color: #4d5ae5;
+}
+.footer-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  /* CORNFLOWER */
+  color: #e7e9fc;
+}
