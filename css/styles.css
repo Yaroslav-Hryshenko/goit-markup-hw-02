@@ -59,6 +59,9 @@ body {
   /* NAVY BLUE */
   color: var(--title-color);
 }
+.header-link.current{
+  color: #F4F4FD;
+}
 .header-contakt {
 }
 .header-mail {
@@ -78,11 +81,12 @@ body {
   /* SLATE */
   color: var(--text-color);
 }
-.header-item :hover {
-     color: #ffffff;
-}
+.header-item :hover,
 .header-item :focus {
-    color: orange;
+     color: #2848ca;
+}
+.header-item :active {
+    color: #F4F4FD
 }
 
 /* -----------event------------ */
@@ -97,15 +101,16 @@ body {
   color: #ffffff;
 }
 .event-btr {
-  font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.19;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
+  background-color: #4d5ae5;
   color: #ffffff;
-}
+  }
 
 /* -------------info-------------- */
 .info {
@@ -245,11 +250,11 @@ body {
 
 }
 .button :hover{
-    color: #e7e9fc;
-    color: #404BBF;
+   background-color: #404BBF;
+   color: #ffffff;
 }
 .button :focus {
-    color: #f1ec89;
+    color: #200d63;
 }
 
 
