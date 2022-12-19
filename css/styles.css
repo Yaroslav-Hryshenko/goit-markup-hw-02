@@ -236,7 +236,7 @@ body {
 }
 .button :hover,
 .button :focus {
-  background-color: var(--btn-fon);
+  background-color: var(--logo-color);
   color: var(--fon-color);
 }
 .foto-list {
